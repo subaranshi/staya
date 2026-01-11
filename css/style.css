@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: "Century Gothic", monospace;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #222;
+}
+
+body.night {
+  background-image: url("../images/backgrounds/night-sky.jpg");
+}
+
+body.light {
+  background-image: url("../images/backgrounds/light-bg.jpg");
+}
+
+.top-nav {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 2rem;
+  background: rgba(0,0,0,0.4);
+  position: sticky;
+  top: 0;
+}
+
+.top-nav a, .dropdown span {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background: rgba(0,0,0,0.8);
+  padding: 0.5rem;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 0.3rem 0;
+}
+
+.paper {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background-image: url("../images/paper/paper.png");
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.portrait {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.char-name {
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+}
+
+.gallery-track {
+  display: flex;
+  transition: transform 0.4s ease;
+  overflow: hidden;
+  width: 100%;
+}
+
+.gallery-track figure {
+  min-width: 100%;
+  text-align: center;
+}
+
+.gallery-track img {
+  max-width: 100%;
+}
+
+figcaption {
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.gallery-btn {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
