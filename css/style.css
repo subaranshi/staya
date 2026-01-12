@@ -71,6 +71,8 @@ body.light {
 .gallery {
   display: flex;
   align-items: center;
+  overflow: hidden;
+  width: 100%;
 }
 
 .gallery-track {
