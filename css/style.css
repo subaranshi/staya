@@ -73,6 +73,44 @@ body.lightpucheglazik {
   margin: 0 auto 1rem;
 }
 
+.photo {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.bio-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.bio-layout .portrait {
+  max-width: 100%;
+  margin: 0;
+}
+
+.bio-text .char-name {
+  margin-top: 0;
+}
+
+/* 📱 мобильная версия */
+@media (max-width: 700px) {
+  .bio-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .bio-layout .portrait {
+    margin: 0 auto 1rem;
+  }
+
+  .bio-text {
+    text-align: left;
+  }
+}
+
+
 .char-name {
   text-align: center;
 }
