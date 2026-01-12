@@ -10,7 +10,7 @@ body.night {
   background-image: url("../images/backgrounds/night-sky.jpg");
 }
 
-body.light {
+body.lightpucheglazik {
   background-image: url("../images/backgrounds/light-bg.jpg");
 }
 
@@ -50,6 +50,15 @@ body.light {
 }
 
 .paper {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background-image: url("../images/paper/paperblue.jpg");
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.paperpucheglazik {
   max-width: 800px;
   margin: 3rem auto;
   padding: 2.5rem;
