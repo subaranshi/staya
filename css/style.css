@@ -62,8 +62,8 @@ body.lightpucheglazik {
   padding: 2.5rem;
     background-image: 
     linear-gradient(
-      rgba(255, 255, 255, 0.35),
-      rgba(255, 255, 255, 0.35)
+      rgba(28, 45, 89, 0.35),
+      rgba(25, 27, 50, 0.35)
     ),
     url("../images/paper/paperblue.jpg");
 
@@ -81,8 +81,8 @@ body.lightpucheglazik {
   padding: 2.5rem;
   background:
     linear-gradient(
-      rgba(255, 255, 255, 0.25),
-      rgba(255, 255, 255, 0.25)
+      rgba(255, 255, 255, 0.35),
+      rgba(248, 155, 169, 0.35)
     ),
     url("../images/paper/paper.jpg");
   background-size: cover;
