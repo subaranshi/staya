@@ -30,7 +30,7 @@ body.lightpucheglazik {
   top: 0;
 }
 
-.home-links a {
+.title-links a {
   display: inline-block;
   padding: 12px 24px;
   margin: 10px;
@@ -42,7 +42,7 @@ body.lightpucheglazik {
   transition: background 0.3s, transform 0.2s;
 }
 
-.home-links a:hover {
+.title-links a:hover {
   background: rgba(255, 255, 255, 0.3);
   transform: translateY(-2px);
 }
