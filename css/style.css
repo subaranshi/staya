@@ -65,7 +65,7 @@ body.lightpucheglazik {
       rgba(28, 45, 89, 0.35),
       rgba(25, 27, 50, 0.35)
     ),
-    url("../images/paper/paperblue.jpg");
+    url("images/paper/paperblue.jpg");
 
   background-size: cover;
   background-position: center;
@@ -84,7 +84,7 @@ body.lightpucheglazik {
       rgba(255, 255, 255, 0.35),
       rgba(248, 155, 169, 0.35)
     ),
-    url("../images/paper/paper.jpg");
+    url("images/paper/paper.jpg");
   background-size: cover;
   border-radius: 8px;
 }
