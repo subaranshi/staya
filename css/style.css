@@ -94,14 +94,19 @@ body.lightpucheglazik {
 
 .bio-layout {
   display: grid;
-  grid-template-columns: 220px 1fr;
+  grid-template-columns: 1fr 2fr;
   gap: 2rem;
   align-items: start;
 }
 
-.bio-layout .portrait {
+.character-image {
+  display: flex;
+  justify-content: center; /* ← ВОТ ОНО */
+}
+
+.character-image img {
   max-width: 100%;
-  margin: 0;
+  height: auto;
 }
 
 .bio-text .char-name {
