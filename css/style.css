@@ -66,18 +66,19 @@ body.lightpucheglazik {
   background-size: cover;
   border-radius: 8px;
 }
-.paper img {
-  max-width: 100%;
+
+.content-image {
+  max-width: 70%;
   height: auto;
   display: block;
+  margin: 1.5rem auto;
 }
 
-.paperpucheglazik img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+@media (max-width: 700px) {
+  .content-image {
+    max-width: 100%;
+  }
 }
-
 
 .portrait {
   max-width: 200px;
