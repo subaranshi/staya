@@ -1,15 +1,15 @@
 document.querySelectorAll(".gallery").forEach(gallery => {
   const track = gallery.querySelector(".gallery-track");
-  const items = track.children;
+  const slides = track.children;
   let index = 0;
 
-  gallery.querySelector(".next").onclick = () => {
-    index = (index + 1) % items.length;
+  gallery.querySelector(".next").addEventListener("click", () => {
+    index = (index + 1) % slides.length;
     track.style.transform = `translateX(-${index * 100}%)`;
-  };
+  });
 
-  gallery.querySelector(".prev").onclick = () => {
-    index = (index - 1 + items.length) % items.length;
+  gallery.querySelector(".prev").addEventListener("click", () => {
+    index = (index - 1 + slides.length) % slides.length;
     track.style.transform = `translateX(-${index * 100}%)`;
-  };
+  });
 });
