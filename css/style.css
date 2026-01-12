@@ -15,6 +15,12 @@ body.lightpucheglazik {
   background-image: url("../images/backgrounds/light-bg.jpg");
 }
 
+@media (min-width: 900px) {
+  body {
+    background-position: center 30%;
+  }
+}
+
 .top-nav {
   display: flex;
   gap: 1.5rem;
@@ -54,13 +60,18 @@ body.lightpucheglazik {
   max-width: 800px;
   margin: 3rem auto;
   padding: 2.5rem;
-  background:
+    background-image:
     linear-gradient(
-      rgba(255, 255, 255, 0.25),
-      rgba(255, 255, 255, 0.25)
+      rgba(255, 255, 255, 0.35),
+      rgba(255, 255, 255, 0.35)
     ),
     url("images/paper/paperblue.jpg");
+
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-blend-mode: lighten;
   border-radius: 8px;
 }
 
