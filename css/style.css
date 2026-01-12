@@ -8,6 +8,7 @@ body {
 
 body.night {
   background-image: url("../images/backgrounds/night-sky.jpg");
+  color: #cbd8e6;
 }
 
 body.lightpucheglazik {
