@@ -30,6 +30,24 @@ body.lightpucheglazik {
   top: 0;
 }
 
+.home-links a {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #dbeaff;
+  border-radius: 12px;
+  text-decoration: none;
+  backdrop-filter: blur(4px);
+  transition: background 0.3s, transform 0.2s;
+}
+
+.home-links a:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+
 .top-nav a, .dropdown span {
   color: #fff;
   text-decoration: none;
