@@ -71,6 +71,10 @@ body.light {
 .gallery {
   display: flex;
   align-items: center;
+  gap: 0.5rem;
+}
+
+.gallery-window {
   overflow: hidden;
   width: 100%;
 }
@@ -78,13 +82,12 @@ body.light {
 .gallery-track {
   display: flex;
   transition: transform 0.4s ease;
-  width: 100%;
 }
 
 .gallery-track figure {
   min-width: 100%;
-  text-align: center;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .gallery-track img {
