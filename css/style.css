@@ -19,6 +19,22 @@ body.lightulybochka {
   background-image: url("../images/backgrounds/ulybochka.jpg");
 }
 
+body.lightraschudesnyshka {
+  background-image: url("../images/backgrounds/raschudesnyshka.jpg");
+}
+
+body.lightprokazushka {
+  background-image: url("../images/backgrounds/prokazushka.jpg");
+}
+
+body.lighthomyachochek {
+  background-image: url("../images/backgrounds/homyachochek.jpg");
+}
+
+body.lightadekvatnolapik {
+  background-image: url("../images/backgrounds/adekvatnolapik.jpg");
+}
+
 @media (min-width: 900px) {
   body {
     background-position: center 40%;
@@ -118,6 +134,62 @@ body.lightulybochka {
     linear-gradient(
       rgba(255, 255, 255, 0.45),
       rgba(238, 189, 131, 0.45)
+    ),
+    url("images/paper/paper.jpg");
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.paperraschudesnyshka {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background:
+    linear-gradient(
+      rgba(255, 255, 255, 0.45),
+      rgba(37, 150, 190, 0.45)
+    ),
+    url("images/paper/paper.jpg");
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.paperprokazushka {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background:
+    linear-gradient(
+      rgba(255, 255, 255, 0.45),
+      rgba(138, 85, 88, 0.45)
+    ),
+    url("images/paper/paper.jpg");
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.paperhomyachochek {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background:
+    linear-gradient(
+      rgba(255, 255, 255, 0.45),
+      rgba(196, 167, 146, 0.45)
+    ),
+    url("images/paper/paper.jpg");
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.paperadekvatnolapik {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background:
+    linear-gradient(
+      rgba(255, 255, 255, 0.45),
+      rgba(1, 91, 110, 0.45)
     ),
     url("images/paper/paper.jpg");
   background-size: cover;
