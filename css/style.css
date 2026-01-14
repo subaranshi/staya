@@ -35,6 +35,21 @@ body.lightadekvatnolapik {
   background-image: url("../images/backgrounds/adekvatnolapik.jpg");
 }
 
+@media (max-width: 768px) {
+  .lightadekvatnolapik {
+    background-position: 75% center;
+  }
+
+  .lightulybochka {
+    background-position: 55% center;
+  }
+  
+  .lightprokazushka {
+    background-position: 55% center;
+  }
+}
+
+
 @media (min-width: 900px) {
   body {
     background-position: center 40%;
