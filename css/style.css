@@ -352,15 +352,19 @@ body.lightadekvatnolapik {
 
 ///////////////////////////
 
-.custom-player {
+.audio-player {
   max-width: 420px;
   margin: 30px auto;
   padding: 18px;
-  background: rgba(255,255,255,0.15);
+  background: rgba(255, 255, 255, 0.15);
   border-radius: 18px;
   backdrop-filter: blur(6px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.track-info {
   text-align: center;
-  position: relative;
+  margin-bottom: 12px;
 }
 
 .track-title {
@@ -371,20 +375,25 @@ body.lightadekvatnolapik {
 .track-author {
   font-size: 0.9em;
   opacity: 0.8;
-  margin-bottom: 12px;
 }
 
-.play-btn {
-  font-size: 24px;
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+#playBtn {
+  font-size: 22px;
   background: none;
   border: none;
   cursor: pointer;
-  color: inherit;
 }
 
-.sc-player {
-  display: none;
-  width: 100%;
-  height: 0;
+#progress {
+  flex: 1;
+  appearance: none;
+  height: 4px;
+  background: rgba(0,0,0,0.3);
+  border-radius: 2px;
 }
-
