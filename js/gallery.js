@@ -13,3 +13,31 @@ document.querySelectorAll(".gallery").forEach(gallery => {
     track.style.transform = `translateX(-${index * 100}%)`;
   });
 });
+
+// ===== АУДИО ПЛЕЕР =====
+
+const audio = document.getElementById("audio");
+const playBtn = document.getElementById("playBtn");
+const progress = document.getElementById("progress");
+
+if (audio && playBtn && progress) {
+  playBtn.addEventListener("click", () => {
+    if (audio.paused) {
+      audio.play();
+      playBtn.textContent = "❚❚";
+    } else {
+      audio.pause();
+      playBtn.textContent = "▶";
+    }
+  });
+
+  audio.addEventListener("timeupdate", () => {
+    progress.max = audio.duration || 0;
+    progress.value = audio.currentTime;
+  });
+
+  progress.addEventListener("input", () => {
+    audio.currentTime = progress.value;
+  });
+}
+
